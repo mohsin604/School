@@ -1,0 +1,84 @@
+a:hover{
+    text-decoration: none;
+}
+.section{
+    padding: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+ background-color: #e74c3c;
+ content: ;
+ display: block;
+ width: 100px;
+ height: 3px;
+ margin: 20px auto;
+}
+#header{
+    color: aliceblue;
+    background-color: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+#menu{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+#menu li{
+    display: inline-block ;
+}
+#menu li a{
+    color: aliceblue;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover{
+    background-color: #c0392b
+}
+#banner{
+    background: url(../asstes/Capture.PNG) no-repeat;
+    background-size:cover;
+}
+
+#banner-title h1{
+     background:rgb(255, 255, 255,0.8) ;
+     display:inline-block ;
+     padding: 10px;
+     margin: 0%;
+}
+
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #c0392b;
+    font-size: 100px;
+    margin-bottom: 15px;
+    
+}
+#testimonial{
+    color: #fff;
+   background-image: url(../asstes/Untitled\ 2.png);
+  background-size: cover;
+  padding: 50ox 0;
+  position: relative;
+}
+#testimonial::before{
+background: rgb(red, green, blue);
+color: "";
+position: absolute;
+top: 0;
+width: 100px;
+height: 100px;
+}
+.testimonial  img{
+    border-radius: 50px
+}
